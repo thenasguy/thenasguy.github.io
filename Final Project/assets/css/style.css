@@ -1,0 +1,128 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+
+}
+
+.content {
+    width: 800px;
+    margin: auto;
+
+}
+
+#image-banner {
+    background-image: url('../img/sf_banner.png');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+
+#other-posts {
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.image-card, .image-card-color-overlay {
+    width: 380px;
+    height: 200px;
+}
+
+.image-card {
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+    position: relative;
+
+}
+
+.image-card:last-child {
+    margin-right: 0;
+}
+
+.image-card img {
+    width: 100%;
+}
+
+.image-card-color-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: 0.3s;
+    background-color: navy;
+}
+
+.image-card:hover .image-card-color-overlay {
+    opacity: .7;
+}
+
+.image-card-text {
+    position: absolute;
+    left: 15px;
+    top: 165px;
+
+
+    color: white;
+}
+
+
+
+#title {
+  text-align: center;
+  font-size: 36px;
+  font-family: Big Shoulders Text;
+
+}
+
+h1 {
+  font-family: Big Shoulders Text;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: Big Shoulders Display;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: none;
+  font-family: Lato;
+}
+
+p {
+  font-family: Muli;
+  margin: 20px;
+  line-height: 24px;
+}
+
+
+.navbar-item:hover {
+  opacity: 1;
+  color: white;
+  text-decoration: none;
+}
+
+#navbar {
+	height: 60px;
+	background: #22803b;
+	margin: auto;
+}
+
+.navbar-item {
+	float: right;
+	line-height: 60px;
+	opacity: 0.5;
+  color: white;
+  margin-right: 20px;
+}

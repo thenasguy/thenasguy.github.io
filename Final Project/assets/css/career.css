@@ -1,0 +1,60 @@
+html {
+  margin:0px;
+}
+body {
+  margin:0px;
+}
+
+.navbar-item {
+	float: right;
+	line-height: 60px;
+	opacity: 0.5;
+  color: white;
+  margin-right: 20px;
+}
+
+.navbar-item:hover {
+  opacity: 1;
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+#content {
+	width: 100%;
+	height: 100vh;
+	background: #f4f4f4;
+	margin: 0 auto;
+	position: relative;
+  align-items: center;
+}
+
+#navbar {
+	height: 60px;
+	background: #22803b;
+	margin: auto;
+}
+
+
+html, body {
+	background: #fafafa;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+#container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.child {
+  border: 2px;
+  color: blue;
+  flex-direction: column;
+}
+#maincontent {
+  margin: auto;
+  left: 5%;
+}

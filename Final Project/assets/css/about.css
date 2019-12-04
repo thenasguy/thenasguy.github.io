@@ -1,0 +1,202 @@
+html {
+  margin:0px;
+}
+body {
+  margin:0px;
+}
+
+#profile-pic {
+  border-radius:50%;
+  overflow: hidden;
+}
+
+
+.item {
+  width: 120px;
+  height: 120px;
+}
+
+.item {
+  margin-right: 10px;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+
+.navbar-item {
+	float: right;
+	line-height: 60px;
+	opacity: 0.5;
+  color: white;
+  margin-right: 20px;
+}
+
+.item:hover {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#follow-button:active {
+  font-size: 18px;
+}
+
+.navbar-item:hover {
+  opacity: 1;
+  color: white;
+  text-decoration: underline;
+}
+
+#content {
+  cursor: pointer;
+}
+
+#content {
+	width: 100%;
+	height: 100vh;
+	background: #f4f4f4;
+	margin: 0 auto;
+	position: relative;
+}
+
+#navbar {
+	height: 60px;
+	background: #22803b;
+	margin: auto;
+}
+
+
+#header {
+	position: relative;
+	justify-content: center;
+	top: 0px;
+	width: 100%;
+	height: 100px;
+	padding: 10px 0px;
+}
+
+#profile-pic {
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	margin: 20px 60px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#information {
+	display: inline-block;
+	position: absolute;
+	height: 80px;
+	left: 170px;
+	margin-top: 10px;
+	margin-left: -10px;
+	color: rgba(0,0,0, .7);
+}
+
+#username {
+	font-size: 24px;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+
+#about {
+	font-size: 12px;
+	margin-top: 8px;
+	color: rgba(0,0,0, .5);
+	line-height: 1.5em;
+	width: 270px;
+}
+
+.row {
+	width: 100%;
+	height: 120px;
+	text-align: center;
+  display: flex;
+  margin: 100px;  
+}
+
+.item {
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	opacity: 0.7;
+	overflow: hidden;
+}
+
+.item, #profile-pic {
+	position: relative;
+}
+
+#design {
+	text-decoration: underline;
+	color: black;
+	opacity: 0.6;
+	transition: 0.2s;
+	text-align: center;
+	position: fixed;
+	right: 40px;
+	bottom: 30px;
+}
+
+#design:hover {
+	opacity: 1;
+	text-decoration: underline;
+}
+
+img {
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+html, body {
+	background: #fafafa;
+	font-family: 'Roboto', sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+#pictures {
+  display: flex;
+  flex-direction: column;
+}
